@@ -1,0 +1,115 @@
+/* collor: #2196F3 - logo and all hover/focus elements
+color: #757575  - цвет основого текста
+color: #212121 - цвет вторичного текста
+color: #FFFFFF - белый цвет (фон и текст)
+color: #F5F4FA - вторичный цвет фона
+color: rgba(255, 255, 255, 0.6) - цвет текста в футтере
+*/
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+/* Logo */
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--secondary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Site navigation */
+
+.site-nav a {
+  color: var(--secondary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contacts {
+  color: var(--primary-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+/* Advantages */
+
+.advantages-list .title {
+  color: var(--secondary-text-color);
+}
+
+/* What we do */
+
+.we-do .title {
+  color: var(--primary-white-color);
+}
+
+/* Our team */
+
+.team .worker {
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+footer {
+  color: var(--primary-white-color);
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.developed-by {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Buttons */
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}

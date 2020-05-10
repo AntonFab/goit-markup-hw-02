@@ -4,41 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!--Шапка-->
     <header>
-      <a href="/">Web Studio</a>
+      <a href="/" class="logo">
+        <span class="logo-web">Web</span>
+        <span class="logo-studio">Studio</span></a
+      >
       <nav>
-        <ul>
+        <ul class="site-nav">
           <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">
+      <a href="mailto:info@devstudio.com" class="contacts">
         <img src="./images/envelope-icon.svg" alt="Конверт" />
         info@devstudio.com
       </a>
-      <a href="tel:+380961111111">
+      <a href="tel:+380961111111" class="contacts">
         <img src="./images/phone-icon.svg" alt="Телефон" />
         +38 096 111 11 11
       </a>
     </header>
     <main>
       <!--Герой-->
-      <section>
-        <h1>эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+      <section class="hero">
+        <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+        <a href="" class="button primary">Заказать услугу</a>
       </section>
 
       <!--Преимущества-->
-      <section>
-        <h2>Наши преимущества</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Наши преимущества</h2>
+        <ul class="advantages-list">
           <li>
             <img src="./images/antenna.svg" alt="Антенна" />
-            <h3>Внимание к деталям</h3>
+            <h3 class="title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -46,7 +50,7 @@
           </li>
           <li>
             <img src="./images/clock.svg" alt="Часы" />
-            <h3>Пунктуальность</h3>
+            <h3 class="title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -54,7 +58,7 @@
           </li>
           <li>
             <img src="./images/notebook.svg" alt="Ноутбук" />
-            <h3>Планирование</h3>
+            <h3 class="title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -62,7 +66,7 @@
           </li>
           <li>
             <img src="./images/astronaut.svg" alt="Астронавт" />
-            <h3>Современные технологии</h3>
+            <h3 class="title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -71,33 +75,33 @@
         </ul>
       </section>
       <!--Чем мы занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="we-do">
           <li>
             <img src="./images/notebook-adv.png" alt="Ноутбук" />
-            <h3>Десктопные приложения</h3>
+            <h3 class="title">Десктопные приложения</h3>
           </li>
           <li>
             <img src="./images/phone-adv.png" alt="Смартфон" />
-            <h3>Мобильные приложения</h3>
+            <h3 class="title">Мобильные приложения</h3>
           </li>
           <li>
             <img src="./images/imac-adv.png" alt="Компьютер" />
-            <h3>Дизайнерские решения</h3>
+            <h3 class="title">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
       <!--Наша команда-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="team">
           <li>
             <img
               src="./images/John-designer.png"
               alt="Фото продуктового дизайнера"
             />
-            <h3>John Smith</h3>
+            <h3 class="worker">John Smith</h3>
             <p>Product Designer</p>
             <ul>
               <li>
@@ -127,7 +131,7 @@
               src="./images/Marta-frontend.png"
               alt="Фото фронтенд разработчика"
             />
-            <h3>Marta Stewart</h3>
+            <h3 class="worker">Marta Stewart</h3>
             <p>Frontend Developer</p>
             <ul>
               <li>
@@ -154,7 +158,7 @@
           </li>
           <li>
             <img src="./images/Robert-marketing.png" alt="Фото маркетолога" />
-            <h3>Robert Jakis</h3>
+            <h3 class="worker">Robert Jakis</h3>
             <p>Marketing</p>
             <ul>
               <li>
@@ -181,7 +185,7 @@
           </li>
           <li>
             <img src="./images/Martin-ui.png" alt="Фото дизайнера" />
-            <h3>Martin Doe</h3>
+            <h3 class="worker">Martin Doe</h3>
             <p>UI Designer</p>
             <ul>
               <li>
@@ -209,8 +213,8 @@
         </ul>
       </section>
       <!--Клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <a href="">
@@ -246,11 +250,14 @@
       </section>
     </main>
     <footer>
-      <p>Web Studio</p>
+      <p><span class="logo-web">Web</span> Studio</p>
       <address>
         г. Киев, пр-т Леси Украинки, 26 <br />
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tel:+380991111111">+38 099 111 11 11</a><br />
+        <a href="mailto:info@example.com" class="footer-contacts"
+          >info@example.com</a
+        ><br />
+        <a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a
+        ><br />
       </address>
       <p>присоединяйтесь</p>
       <ul>
@@ -275,7 +282,7 @@
           </a>
         </li>
       </ul>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="developed-by">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
